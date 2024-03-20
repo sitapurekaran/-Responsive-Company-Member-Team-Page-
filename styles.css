@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.logo-container {
+    flex-shrink: 0; 
+    margin-left: 80%;/* Prevent logo from shrinking */
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.company-name {
+   
+    margin-left: 40%;
+    font-size: 22px; /* Smaller font size */
+    background-color:rgb(255, 12, 255); /* Smaller background color */
+    padding: 5px; /* Smaller padding inside the company name box */
+    width: 350px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.Page-container {
+    margin-top: 20px; /* Add spacing between header and content */
+    padding: -10px; /* Add padding for content */
+    width: 700px;
+    margin-left: 30%;
+    font-size: 20px;
+}
+.l1-container {
+     /* Add a solid black line */
+    margin-top: 20px; /* Add space above the line */
+    margin-left: 37%;
+    color:rgb(255, 12, 255); 
+    
+}
+.l2-container{
+    margin-top: 20px; /* Add space above the line */
+    font-size: 22px;
+    margin-left: 46%;
+    color:rgb(12, 10, 12);
+    font-weight: bold; 
+}
+.company{
+    margin-top: 20px;
+    margin-left: 40%;
+    font-size: 22px; /* Smaller font size */
+    background-color:rgb(255, 12, 255); /* Smaller background color */
+    padding: 5px; /* Smaller padding inside the company name box */
+    width: 350px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.company-name1 {
+    text-align: center;
+    width: fit-content; /* Ensure the width fits the content */
+    font-size: 22px;
+    background-color:rgb(255, 12, 255); 
+    width: 350px;
+    border-radius: 20px;
+}
